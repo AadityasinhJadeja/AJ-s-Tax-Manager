@@ -69,4 +69,3 @@ This tool provides planning estimates, not tax or legal advice.
 ## Documentation
 
 - Product requirements: `docs/PRD.md`
-- Decision history: `docs/DECISIONS_LOG.md`
