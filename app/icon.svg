@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Background Gradient (Theme Accent) -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1f4e46" />
+      <stop offset="100%" stop-color="#0f2621" />
+    </linearGradient>
+    
+    <!-- Gold / Border Gradient -->
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#cfbfab" />
+      <stop offset="50%" stop-color="#aa967d" />
+      <stop offset="100%" stop-color="#8a7f72" />
+    </linearGradient>
+
+    <!-- Chart / Accent Graphic Gradient -->
+    <linearGradient id="chartGrad" x1="0" y1="512" x2="512" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8f4325" />
+      <stop offset="50%" stop-color="#98573a" />
+      <stop offset="100%" stop-color="#cfbfab" />
+    </linearGradient>
+
+    <!-- Drop Shadow for depth -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#cfbfab" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Perfectly Round Base with Transparent Background outside -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGrad)" />
+  
+  <!-- Elegant Inner Ring -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.3" />
+  <circle cx="256" cy="256" r="224" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.15" />
+
+  <!-- Finance Chart Trend Line -->
+  <g filter="url(#shadow)">
+    <!-- Main Trend Line -->
+    <path d="M 120 340 L 200 240 L 270 280 L 390 150" fill="none" stroke="url(#chartGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Arrow Head -->
+    <path d="M 310 150 L 390 150 L 390 230" fill="none" stroke="url(#chartGrad)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Minimalist AJ Monogram overlay -->
+  <g filter="url(#glow)">
+    <text x="256" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Avenir Next', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="200" fill="#fffdf8" text-anchor="middle" dominant-baseline="alphabetic" letter-spacing="-5">
+      AJ
+    </text>
+  </g>
+</svg>
