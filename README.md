@@ -1,6 +1,6 @@
-# AJ Finance Manager
+# AJ Tax Manager
 
-AJ Finance Manager is a personal take-home pay planner for U.S. hourly and salaried income.
+AJ Tax Manager is a personal take-home pay planner for U.S. hourly and salaried income.
 
 ## Why this exists
 
@@ -59,7 +59,7 @@ src/features/         Hourly and salary feature pages
 src/state/            Scenario and persistence state
 src/data/tax/         Tax table loading utilities
 data/tax/             Versioned tax data files
-docs/                 PRD and decision history
+docs/                 PRD
 ```
 
 ## Important note
@@ -69,3 +69,4 @@ This tool provides planning estimates, not tax or legal advice.
 ## Documentation
 
 - Product requirements: `docs/PRD.md`
+- Decision history: `docs/DECISIONS_LOG.md`
