@@ -1,0 +1,9 @@
+{
+  "stateCode": "AZ",
+  "taxType": "flat",
+  "flatRate": 0.025,
+  "standardDeductionByStatus": {
+    "single": 0,
+    "married_joint": 0
+  }
+}

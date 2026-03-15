@@ -1,0 +1,34 @@
+{
+  "stateCode": "NY",
+  "taxType": "progressive",
+  "standardDeductionByStatus": {
+    "single": 8000,
+    "married_joint": 16050
+  },
+  "bracketsByStatus": {
+    "single": [
+      { "upTo": 8500, "rate": 0.04 },
+      { "upTo": 11700, "rate": 0.045 },
+      { "upTo": 13900, "rate": 0.0525 },
+      { "upTo": 21400, "rate": 0.055 },
+      { "upTo": 80650, "rate": 0.06 },
+      { "upTo": 215400, "rate": 0.0685 },
+      { "upTo": 1077550, "rate": 0.0965 },
+      { "upTo": 5000000, "rate": 0.103 },
+      { "upTo": 25000000, "rate": 0.109 },
+      { "upTo": null, "rate": 0.109 }
+    ],
+    "married_joint": [
+      { "upTo": 17150, "rate": 0.04 },
+      { "upTo": 23600, "rate": 0.045 },
+      { "upTo": 27900, "rate": 0.0525 },
+      { "upTo": 43000, "rate": 0.055 },
+      { "upTo": 161550, "rate": 0.06 },
+      { "upTo": 323200, "rate": 0.0685 },
+      { "upTo": 2155350, "rate": 0.0965 },
+      { "upTo": 5000000, "rate": 0.103 },
+      { "upTo": 25000000, "rate": 0.109 },
+      { "upTo": null, "rate": 0.109 }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stateCode": "CA",
+  "taxType": "progressive",
+  "standardDeductionByStatus": {
+    "single": 5600,
+    "married_joint": 11200
+  },
+  "bracketsByStatus": {
+    "single": [
+      { "upTo": 10099, "rate": 0.01 },
+      { "upTo": 23942, "rate": 0.02 },
+      { "upTo": 37788, "rate": 0.04 },
+      { "upTo": 52455, "rate": 0.06 },
+      { "upTo": 66295, "rate": 0.08 },
+      { "upTo": 338639, "rate": 0.093 },
+      { "upTo": 406364, "rate": 0.103 },
+      { "upTo": 677275, "rate": 0.113 },
+      { "upTo": null, "rate": 0.123 }
+    ],
+    "married_joint": [
+      { "upTo": 20198, "rate": 0.01 },
+      { "upTo": 47884, "rate": 0.02 },
+      { "upTo": 75576, "rate": 0.04 },
+      { "upTo": 104910, "rate": 0.06 },
+      { "upTo": 132590, "rate": 0.08 },
+      { "upTo": 677278, "rate": 0.093 },
+      { "upTo": 812728, "rate": 0.103 },
+      { "upTo": 1354550, "rate": 0.113 },
+      { "upTo": null, "rate": 0.123 }
+    ]
+  }
+}

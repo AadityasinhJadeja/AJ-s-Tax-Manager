@@ -1,0 +1,9 @@
+{
+  "stateCode": "GA",
+  "taxType": "flat",
+  "flatRate": 0.0539,
+  "standardDeductionByStatus": {
+    "single": 0,
+    "married_joint": 0
+  }
+}

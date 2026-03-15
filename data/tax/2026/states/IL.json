@@ -1,0 +1,9 @@
+{
+  "stateCode": "IL",
+  "taxType": "flat",
+  "flatRate": 0.0495,
+  "standardDeductionByStatus": {
+    "single": 0,
+    "married_joint": 0
+  }
+}

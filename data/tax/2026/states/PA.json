@@ -1,0 +1,9 @@
+{
+  "stateCode": "PA",
+  "taxType": "flat",
+  "flatRate": 0.0307,
+  "standardDeductionByStatus": {
+    "single": 0,
+    "married_joint": 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "taxYear": 2026,
+  "tableVersion": "2026.2.0",
+  "generatedAt": "2026-03-15T08:00:00-07:00",
+  "notes": "Focused hourly jurisdictions added for personal MVP (CA, NC, TX, NY, PA, IL, WA, AZ, GA, FL). Verify against official sources before production use.",
+  "sources": [
+    {
+      "scope": "federal",
+      "label": "IRS",
+      "url": "https://www.irs.gov/"
+    },
+    {
+      "scope": "state:AZ",
+      "label": "Arizona Department of Revenue",
+      "url": "https://azdor.gov/"
+    },
+    {
+      "scope": "state:CA",
+      "label": "California Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov/"
+    },
+    {
+      "scope": "state:NC",
+      "label": "North Carolina Department of Revenue",
+      "url": "https://www.ncdor.gov/"
+    },
+    {
+      "scope": "state:TX",
+      "label": "Texas Comptroller (Taxes)",
+      "url": "https://comptroller.texas.gov/taxes/"
+    },
+    {
+      "scope": "state:NY",
+      "label": "New York State Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov/"
+    },
+    {
+      "scope": "state:PA",
+      "label": "Pennsylvania Department of Revenue",
+      "url": "https://www.revenue.pa.gov/"
+    },
+    {
+      "scope": "state:IL",
+      "label": "Illinois Department of Revenue",
+      "url": "https://tax.illinois.gov/"
+    },
+    {
+      "scope": "state:WA",
+      "label": "Washington State Department of Revenue",
+      "url": "https://dor.wa.gov/"
+    },
+    {
+      "scope": "state:GA",
+      "label": "Georgia Department of Revenue",
+      "url": "https://dor.georgia.gov/"
+    },
+    {
+      "scope": "state:FL",
+      "label": "Florida Department of Revenue",
+      "url": "https://floridarevenue.com/"
+    }
+  ]
+}

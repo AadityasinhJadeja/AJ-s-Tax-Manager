@@ -1,0 +1,26 @@
+{
+  "standardDeductionByStatus": {
+    "single": 15750,
+    "married_joint": 31500
+  },
+  "bracketsByStatus": {
+    "single": [
+      { "upTo": 11925, "rate": 0.1 },
+      { "upTo": 48475, "rate": 0.12 },
+      { "upTo": 103350, "rate": 0.22 },
+      { "upTo": 197300, "rate": 0.24 },
+      { "upTo": 250525, "rate": 0.32 },
+      { "upTo": 626350, "rate": 0.35 },
+      { "upTo": null, "rate": 0.37 }
+    ],
+    "married_joint": [
+      { "upTo": 23850, "rate": 0.1 },
+      { "upTo": 96950, "rate": 0.12 },
+      { "upTo": 206700, "rate": 0.22 },
+      { "upTo": 394600, "rate": 0.24 },
+      { "upTo": 501050, "rate": 0.32 },
+      { "upTo": 751600, "rate": 0.35 },
+      { "upTo": null, "rate": 0.37 }
+    ]
+  }
+}
